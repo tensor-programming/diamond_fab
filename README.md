@@ -4,7 +4,12 @@ A simple package for adding a Diamond Floating Action Button or FAB to a flutter
 
 ## Getting Started
 
-Add `diamond_fab: 0.0.1` to your pubspec.yaml. 
+Add this to your package's pubspec.yaml file:
+
+```
+dependencies:
+  diamond_fab: "^0.0.1"
+```
 
 
 ## Screenshots
