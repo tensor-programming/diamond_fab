@@ -2,14 +2,16 @@ library diamond_fab;
 
 import 'package:flutter/material.dart';
 
+/// On Material Design spec, the normal sized diamond FAB is 68.0 logical Pixels compared
+/// to the normal sized circle FAB which is 56.0 logical pixels.
 const BoxConstraints _kSizeConstraints = const BoxConstraints.tightFor(
-  width: 56.0,
-  height: 56.0,
+  width: 68.0,
+  height: 68.0,
 );
 
 const BoxConstraints _kMiniSizeConstraints = const BoxConstraints.tightFor(
-  width: 40.0,
-  height: 40.0,
+  width: 52.0,
+  height: 52.0,
 );
 
 class _DefaultHeroTag {
@@ -102,8 +104,8 @@ class DiamondFab extends StatefulWidget {
   /// Controls the size of this button.
   ///
   /// By default, floating action buttons are non-mini and have a height and
-  /// width of 56.0 pixels. Mini floating action buttons have a height
-  /// and width of 40.0 pixels.
+  /// width of 68.0 pixels. Mini floating action buttons have a height
+  /// and width of 52.0 pixels.
   final bool mini;
 
   /// Created the diamond shaped floating action button.
