@@ -6,8 +6,13 @@ FAB code is based on the original Floating Action Button Source code and the Mat
 
 ## Getting Started
 
-Add `diamond_fab: 0.1.0` to your pubspec.yaml. 
+Add this to your package's pubspec.yaml file:
 
+
+```
+dependencies:
+  diamond_fab: "^0.1.0"
+```
 
 ## Screenshots
 
