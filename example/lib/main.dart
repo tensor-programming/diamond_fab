@@ -28,16 +28,16 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Container(),
       floatingActionButton: DiamondFab(
-        color: Colors.amber,
         child: Icon(Icons.home),
         onPressed: () {},
-        notchMargin: 10.0,
+        mini: true,
+        tooltip: 'Testing on long press',
+        notchMargin: 20.0,
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
         child: Container(
           height: 60.0,
-          color: Colors.indigoAccent,
         ),
       ),
     );
