@@ -11,7 +11,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  diamond_fab: "^0.1.0"
+  diamond_fab: "^0.1.1"
 ```
 
 ## Screenshots
