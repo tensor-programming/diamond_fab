@@ -2,6 +2,8 @@ library diamond_fab;
 
 import 'package:flutter/material.dart';
 
+/// Normal Size specification based on the Posivibe specification
+///
 /// On Material Design spec, the normal sized diamond FAB is 68.0 logical Pixels compared
 /// to the normal sized circle FAB which is 56.0 logical pixels.
 const BoxConstraints _kSizeConstraints = const BoxConstraints.tightFor(
@@ -9,6 +11,9 @@ const BoxConstraints _kSizeConstraints = const BoxConstraints.tightFor(
   height: 68.0,
 );
 
+/// Mini specification based on the mini specification of the [FloatingActionButton]
+///
+/// Normal mini FAB specification is 40.0 logical pixels.
 const BoxConstraints _kMiniSizeConstraints = const BoxConstraints.tightFor(
   width: 52.0,
   height: 52.0,
