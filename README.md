@@ -19,3 +19,4 @@ dependencies:
 ![Center docked with wider margin](./images/center-docked.jpg "Center Docked with wide margin")
 ![Center Float with normal margin](./images/center-float.jpg "Center Float with normal margin")
 ![End docked with narrow margin](./images/end-docked.jpg "End docked with narrow margin")
+
