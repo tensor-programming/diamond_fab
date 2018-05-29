@@ -63,7 +63,7 @@ class DiamondFab extends StatefulWidget {
   /// The color to use when filling the button.
   ///
   /// Defaults to [ThemeData.accentColor] for the current theme.
-  final Color backgroundcolor;
+  final Color backgroundColor;
 
   /// The default icon and text color.
   ///
