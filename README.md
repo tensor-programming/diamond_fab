@@ -1,4 +1,4 @@
-# diamond_fab
+# Material Design Diamond FAB
 
 A simple package for adding a Diamond Floating Action Button or FAB to a flutter application.  This FAB also allows for a notch to be made inside of the Bottom Application Bar or Bottom Navigation Bar based on the positioning. 
 
