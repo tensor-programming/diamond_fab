@@ -124,7 +124,7 @@ class DiamondFab extends StatefulWidget {
     Key key,
     this.child,
     this.notchMargin: 8.0,
-    this.backgroundcolor,
+    this.backgroundColor,
     @required this.onPressed,
     this.foregroundColor,
     this.tooltip,
@@ -182,7 +182,7 @@ class DiamondFabState extends State<DiamondFab> {
       onHighlightChanged: _handleHightlightChanged,
       elevation: _hightlight ? widget.highlightElevation : widget.elevation,
       constraints: widget._sizeConstraints,
-      fillColor: widget.backgroundcolor ?? theme.accentColor,
+      fillColor: widget.backgroundColor ?? theme.accentColor,
       textStyle: theme.accentTextTheme.button.copyWith(
         color: foregroundColor,
         letterSpacing: 1.2,
